@@ -71,9 +71,12 @@ body{
     align-content: center;
     text-align: center;
     border: 2px solid #22D4FD;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 16px 0;
     text-decoration: none;
     font-weight: 600;
+}
+.conteudo__botao:hover {
+    border: 2px dashed #22D4FD;
 }
