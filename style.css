@@ -50,20 +50,30 @@ body{
 
 .apresentacao__conteudo__botoes{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    size: 24px;
 }
 
 .conteudo__botao {
-    color: #000;
-    background-color: #22D4FD;
-    width: 280px;
-    text-align: center;
-    border: 0px solid #22D4FD;
-    border-radius: 16px;
     font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: none;
+    width: 378px;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    border: 2px solid #22D4FD;
+    border-radius: 16px;
     font-size: 24px;
-    padding: 21.5px 0;
+    padding: 16px 0;
     text-decoration: none;
     font-weight: 600;
 }
