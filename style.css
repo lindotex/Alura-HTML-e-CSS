@@ -11,6 +11,12 @@ body{
     color: #F6F6F6;/* Cor do texto*/
     box-sizing: border-box; /* Define os elementos para que fiquem dentro do elemento body */    
 }
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
 
 .apresentacao {
     display: flex;
@@ -78,5 +84,7 @@ body{
     font-weight: 600;
 }
 .conteudo__botao:hover {
-    border: 2px dashed #22D4FD;
+    border: 3px dashed #f6f6f6;
+    background-color: #272727;
+    color: #F6F6F6;
 }
