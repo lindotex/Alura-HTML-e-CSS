@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --primaria:#dcd7c9;
+    --secundaria:#2c3639;
+    --terciaria:#a27b5c;
+    --cor-hover:#3f4e4f;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
 * {
     /*RESET CSS*/
     margin: 0;
@@ -7,8 +17,8 @@
 }
 
 body{
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--secundaria);
+    color: var(--primaria);
     box-sizing: border-box;  
 }
 
@@ -24,11 +34,11 @@ main {
 }
 
 footer {
-    background-color: #22D4FD;
-    color: #000000;
+    background-color: var(--terciaria);
+    color: var(--secundaria);
     text-align: center;
     padding: 24px;
-    font-family: Montserrat;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -44,8 +54,8 @@ footer {
     gap: 80px;
 }
 .cabecalho__menu__link {
-    color: var(--Azul-claro, #22D4FD);
-    font-family: Montserrat;
+    color: var(--Azul-claro, var(--terciaria));
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -62,7 +72,7 @@ footer {
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--terciaria);
 }
 
 .apresentacao__conteudo {
@@ -75,7 +85,7 @@ footer {
 }
 
 .apresentacao__conteudo__titulo {
-    font-family: Krona One;
+    font-family: var(--fonte-primaria);
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -83,7 +93,7 @@ footer {
 }
 
 .apresentacao__conteudo__paragrafo {
-    font-family: Montserrat;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -99,20 +109,20 @@ footer {
 }
 
 .apresentacao__conteudo__subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     size: 24px;
 }
 
 .conteudo__botao {
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    font-family: var(--fonte-secundaria);
+    color: var(--primaria);
     background-color: none;
     width: 378px;
     vertical-align: middle;
     align-content: center;
     text-align: center;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--terciaria);
     border-radius: 8px;
     font-size: 24px;
     padding: 16px 0;
@@ -120,7 +130,7 @@ footer {
     font-weight: 600;
 }
 .conteudo__botao:hover {
-    border: 3px dashed #f6f6f6;
+    border: 3px dashed var(--primaria);
     background-color: #272727;
-    color: #F6F6F6;
+    color: var(--primaria);
 }
