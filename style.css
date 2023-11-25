@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 * {
+    /*RESET CSS*/
     margin: 0;
     padding: 0;
 }
 
 body{
-    height: 100%; /*Propriedade que garante a visualização do conteudo em 100% da altura da tela*/
-    background-color: #000000; /* Cor do fundo*/
-    color: #F6F6F6;/* Cor do texto*/
-    box-sizing: border-box; /* Define os elementos para que fiquem dentro do elemento body */    
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box;  
 }
+
 a {
     display: flex;
     align-items: center;
@@ -18,10 +19,45 @@ a {
     gap: 16px;
 }
 
+main {
+    height: 100%;
+}
+
+footer {
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    padding: 24px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.cabecalho {
+    padding: 5% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    color: var(--Azul-claro, #22D4FD);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
 .apresentacao {
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    /* margin: 10% 15%; */
+    padding: 8% 15%;
     gap: 60px;
 }
 
